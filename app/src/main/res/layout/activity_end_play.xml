@@ -21,6 +21,15 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/textUserMarginTop"
             android:minHeight="@dimen/UserMinHeight"/>
+
+        <TextView
+            android:id="@+id/textNumIntentosRestantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/textUserMarginTop"
+            android:minHeight="@dimen/UserMinHeight"/>
     </LinearLayout>
 
 </layout>

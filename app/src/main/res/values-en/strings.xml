@@ -10,4 +10,5 @@
     <string name="menor">The number to guess is smaller</string>
     <string name="success">You have guessed the number!!</string>
     <string name="fail">You have wasted all your attemps</string>
+    <string name="numIntentos">Attemps left: </string>
 </resources>

@@ -10,4 +10,5 @@
     <string name="menor">El número a adivinar es menor</string>
     <string name="success">¡Has acertado el número!</string>
     <string name="fail">Has consumido tus intentos antes de adivinar el número</string>
+    <string name="numIntentos">Intentos restantes: </string>
 </resources>

@@ -40,6 +40,8 @@ public class EndPlayActivity extends AppCompatActivity {
 
     private void successView(){
         binding.textResult.setText(R.string.success);
+        binding.textNumIntentosRestantes.setText(R.string.numIntentos);
+        binding.textNumIntentosRestantes.append(String.valueOf(binding.getGame().getNumIntentos()));
     }
 
     private void failView(){

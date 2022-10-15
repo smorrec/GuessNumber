@@ -55,7 +55,6 @@ public class PlayActivity extends AppCompatActivity {
         binding.textResult.setText(null);
         binding.Try.setText(null);
         binding.Try.setEnabled(true);
-        binding.btCheck.setEnabled(true);
         binding.btTryAgain.setEnabled(false);
     }
 
@@ -81,11 +80,7 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable editable) {
-                if(binding.getGame().getRespuesta() <=0 || binding.getGame().getRespuesta() > 100){
-                    binding.btCheck.setEnabled(false);
-                }else{
-                    binding.btCheck.setEnabled(true);
-                }
+                binding.btCheck.setEnabled(binding.getGame().getRespuesta() > 0 && binding.getGame().getRespuesta() <= 100);
             }
         });
     }
