@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="game"
+            type="com.example.guessnumber.data.Game" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.ConfigActivity">
+
+        <EditText
+            android:id="@+id/User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/UserMarginTop"
+            android:autofillHints=""
+            android:hint="@string/UserHint"
+            android:inputType="text"
+            android:minHeight="@dimen/UserMinHeight"
+            android:text="@={game.usuario}"
+            android:textColorHint="@color/etUserColorHint" />
+
+        <EditText
+            android:id="@+id/NumIntentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/NumIntentosMarginTop"
+            android:autofillHints=""
+            android:hint="@string/NumIntentosHint"
+            android:inputType="text"
+            android:minHeight="@dimen/NumIntentosMinHeight"
+            android:text="@={game.intToString(game.numIntentos)}"
+            android:textColorHint="@color/etUserColorHint" />
+
+        <Button
+            android:id="@+id/btSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/btSendMarginTop"
+            android:text="@string/btSendText" />
+    </LinearLayout>
+
+</layout>

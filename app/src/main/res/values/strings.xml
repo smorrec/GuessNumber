@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="btSendText">¡A jugar!</string>
+    <string name="UserHint">Introduce tu nombre de usuario</string>
+    <string name="NumIntentosHint">Introduce el número de intentos del máximos</string>
+    <string name="TryHint">Introduce tu respuesta</string>
+    <string name="btCheck">Comprobar Respuesta</string>
+    <string name="btTryAgain">Intentar otra vez</string>
+    <string name="mayor">El número a adivinar es mayor</string>
+    <string name="menor">El número a adivinar es menor</string>
+    <string name="success">¡Has acertado el número!</string>
+    <string name="fail">Has consumido tus intentos antes de adivinar el número</string>
+</resources>

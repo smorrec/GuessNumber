@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="btSendText">Play!</string>
+    <string name="UserHint">Introduce your username</string>
+    <string name="NumIntentosHint">Introduce max number attemps</string>
+    <string name="TryHint">Introduce your answer</string>
+    <string name="btCheck">Check Answer</string>
+    <string name="btTryAgain">Try Again</string>
+    <string name="mayor">The number to guess is bigger</string>
+    <string name="menor">The number to guess is smaller</string>
+    <string name="success">You have guessed the number!!</string>
+    <string name="fail">You have wasted all your attemps</string>
+</resources>

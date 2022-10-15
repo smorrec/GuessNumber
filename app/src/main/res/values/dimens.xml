@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="NumIntentosMarginTop">50dp</dimen>
+    <dimen name="NumIntentosMinHeight">48dp</dimen>
+    <dimen name="btSendMarginTop">50dp</dimen>
+    <dimen name="UserMarginTop">50dp</dimen>
+    <dimen name="UserMinHeight">48dp</dimen>
+    <dimen name="textUserMarginTop">50dp</dimen>
+    <dimen name="textInputUserMarginTop">50dp</dimen>
+    <dimen name="textMessageMarginTop">50dp</dimen>
+    <dimen name="textInputMessageMarginTop">50dp</dimen>
+</resources>
