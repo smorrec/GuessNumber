@@ -45,3 +45,5 @@ Si el jugador se queda sin intentos se inicia la tercera actividad que muestra u
 que el jugador ha agotado todos sus intentos.
 
 <img src = "https://user-images.githubusercontent.com/114061904/195997102-96cc8175-5bd9-4dbb-a046-70c3e780becb.png" height = "500">
+
+Una vez se inicia la tercera actividad el juego se da por terminado.
