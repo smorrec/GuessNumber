@@ -37,9 +37,9 @@ volver a intentarlo en el caso de que nos queden intentos.
 
 ##EndPlayActivity
 Si el jugador acierta el número antes de que se le agoten los intentos se inicia la tercera actividad
-que muestra un mensaje al jugador indicando que este ha ganado.
+que muestra un mensaje al jugador indicando que este ha ganado y el número de intentos restantes.
 
-<img src = "https://user-images.githubusercontent.com/114061904/195997059-93604cb4-7567-4448-b48b-bd5e65531a05.png" height = "500">
+<img src = "https://user-images.githubusercontent.com/114061904/196004041-bac6d16a-04dd-45b8-b518-2c23c92677e0.png" height = "500">
 
 Si el jugador se queda sin intentos se inicia la tercera actividad que muestra un mensaje indicando
 que el jugador ha agotado todos sus intentos.
